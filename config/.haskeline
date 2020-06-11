@@ -1,0 +1,12 @@
+-- https://github.com/judah/haskeline/wiki/UserPreferences
+editMode: Vi
+completionType: MenuCompletion
+maxhistorysize: Just 40
+
+-- https://github.com/judah/haskeline/wiki/CustomKeyBindings
+bind: { { } left
+bind: ( ( ) left
+bind: [ [ ] left
+bind: } right
+bind: ] right
+bind: ) right
